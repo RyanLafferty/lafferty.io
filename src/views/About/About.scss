@@ -1,4 +1,31 @@
 .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  @mixin descriptionContainer {
+    width: 40vw;
+    padding-bottom: 50px;
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  .headshot {
+    border-radius: 50%;
+    height: 256px;
+    width: 256px;
+  }
+
+  .biking {
+    width: 40vw;
+    border-radius: 2%;
+  }
+
+  .careerContainer {
+    @include descriptionContainer;
+  }
+
+  .socialContainer {
+    @include descriptionContainer;
+  }
 }

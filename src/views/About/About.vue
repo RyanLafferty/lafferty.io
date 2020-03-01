@@ -1,10 +1,22 @@
 <template>
   <div class="container">
     <h1>{{ content.en.title }}</h1>
+    <img :src=headshot class="headshot">
+    <h2>{{ content.en.careerTitle }}</h2>
+    <div class="careerContainer">
+      {{ content.en.careerDescription }}
+    </div>
+    <h2>{{ content.en.socialTitle }}</h2>
+    <div class="socialContainer">
+      {{ content.en.socialDescription }}
+    </div>
+    <img :src=biking class="biking">
   </div>
 </template>
 
 <script>
+import headshot from '@/assets/jpg/headshot.jpg';
+import biking from '@/assets/jpg/biking.jpg';
 import content from './About.json';
 
 export default {
@@ -16,6 +28,8 @@ export default {
   },
   data: () => ({
     content,
+    headshot,
+    biking,
   }),
 };
 </script>

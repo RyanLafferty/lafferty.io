@@ -1,10 +1,12 @@
 <template>
   <div class="container">
-    <h1>{{ title }}</h1>
+    <h1>{{ content.en.title }}</h1>
   </div>
 </template>
 
 <script>
+import content from './About.json';
+
 export default {
   props: {
     title: {
@@ -13,7 +15,7 @@ export default {
     },
   },
   data: () => ({
-    foo: 'bar',
+    content,
   }),
 };
 </script>

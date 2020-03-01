@@ -10,24 +10,43 @@
         </span>
       </div>
       <div class="linkContainer">
-        <div>Icon</div>
-        <span>TODO</span>
+        <EmailIcon class="icon" alt="Email Icon" />
+        <a
+          class="label"
+          :href="content.en.contact.email"
+          target="_top"
+        >
+          Email
+        </a>
       </div>
       <div class="linkContainer">
-        <div>Icon</div>
-        <span>TODO2</span>
+        <LinkedInIcon class="icon" alt="LinkedIn Icon" />
+        <a
+          :href="content.en.links.linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label"
+        >
+          LinkedIn
+        </a>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import EmailIcon from '@/assets/svg/email.svg';
+import LinkedInIcon from '@/assets/svg/linkedin.svg';
 import content from './Contact.json';
 
 export default {
   data: () => ({
     content,
   }),
+  components: {
+    EmailIcon,
+    LinkedInIcon,
+  },
 };
 </script>
 

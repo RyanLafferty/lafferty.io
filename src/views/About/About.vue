@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="container">
     <h1>{{ title }}</h1>
   </div>
 </template>
@@ -17,3 +17,7 @@ export default {
   }),
 };
 </script>
+
+<style lang="scss" scoped>
+   @import 'About.scss'
+</style>

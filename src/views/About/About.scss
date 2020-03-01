@@ -1,14 +1,14 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@import './../../styles/common/mixins.scss';
 
-  @mixin descriptionContainer {
-    width: 40vw;
-    padding-bottom: 50px;
-    font-size: 18px;
-    line-height: 2;
-  }
+@mixin descriptionContainer {
+  width: 40vw;
+  padding-bottom: 50px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.container {
+  @include baseRootContainer;
 
   .headshot {
     border-radius: 50%;

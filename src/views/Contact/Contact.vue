@@ -20,6 +20,17 @@
         </a>
       </div>
       <div class="linkContainer">
+        <GitHubIcon class="icon" alt="GitHub Icon" />
+        <a
+          :href="content.en.links.github"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label"
+        >
+          GitHub
+        </a>
+      </div>
+      <div class="linkContainer">
         <LinkedInIcon class="icon" alt="LinkedIn Icon" />
         <a
           :href="content.en.links.linkedin"
@@ -36,6 +47,7 @@
 
 <script>
 import EmailIcon from '@/assets/svg/email.svg';
+import GitHubIcon from '@/assets/svg/github.svg';
 import LinkedInIcon from '@/assets/svg/linkedin.svg';
 import content from './Contact.json';
 
@@ -45,6 +57,7 @@ export default {
   }),
   components: {
     EmailIcon,
+    GitHubIcon,
     LinkedInIcon,
   },
 };

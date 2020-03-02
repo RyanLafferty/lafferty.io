@@ -1,3 +1,5 @@
+@import './../../styles/common/colors.scss';
+
 .container {
   padding-top: 3px;
   padding-bottom: 3px;
@@ -7,15 +9,15 @@
   // TODO: use a theme color
   background-color: lightblue;
 
-  // TODO: use theme color
   .logo {
     width: 18px;
     height: 18px;
+    fill: $primary;
   }
 
-  // TODO: use theme color
   .label {
     font-size: 16px;
     padding-left: 5px;
+    color: $primary;
   }
 }

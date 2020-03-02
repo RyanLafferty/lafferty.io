@@ -31,6 +31,17 @@
         </a>
       </div>
       <div class="linkContainer">
+        <NpmIcon class="icon" alt="npm Icon" />
+        <a
+          :href="content.en.links.npm"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label"
+        >
+          npm
+        </a>
+      </div>
+      <div class="linkContainer">
         <LinkedInIcon class="icon" alt="LinkedIn Icon" />
         <a
           :href="content.en.links.linkedin"
@@ -48,6 +59,7 @@
 <script>
 import EmailIcon from '@/assets/svg/email.svg';
 import GitHubIcon from '@/assets/svg/github.svg';
+import NpmIcon from '@/assets/svg/npm.svg';
 import LinkedInIcon from '@/assets/svg/linkedin.svg';
 import content from './Contact.json';
 
@@ -58,6 +70,7 @@ export default {
   components: {
     EmailIcon,
     GitHubIcon,
+    NpmIcon,
     LinkedInIcon,
   },
 };

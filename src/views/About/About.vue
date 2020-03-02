@@ -11,6 +11,10 @@
       {{ content.en.careerDescription }}
     </div>
     <h2 class="heading">
+      {{ content.en.skillsTitle }}
+    </h2>
+    <BackendSkills/>
+    <h2 class="heading">
       {{ content.en.socialTitle }}
     </h2>
     <div class="socialContainer">
@@ -21,6 +25,7 @@
 </template>
 
 <script>
+import BackendSkills from '@/components/BackendSkills';
 import headshot from '@/assets/jpg/headshot.jpg';
 import biking from '@/assets/jpg/biking.jpg';
 import content from './About.json';
@@ -37,6 +42,9 @@ export default {
     headshot,
     biking,
   }),
+  components: {
+    BackendSkills,
+  },
 };
 </script>
 

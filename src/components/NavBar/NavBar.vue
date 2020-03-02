@@ -5,7 +5,7 @@
       :key="`nav-bar-option-${option.label}`"
       :link="option.link"
       :label="option.label"
-    >
+    />
   </div>
 </template>
 
@@ -21,9 +21,9 @@ export default {
         label: 'Home',
       }],
     },
-    components: {
-      NavBarOption,
-    },
+  },
+  components: {
+    NavBarOption,
   },
 };
 </script>

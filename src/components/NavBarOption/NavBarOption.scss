@@ -1,0 +1,13 @@
+@import './../../styles/common/colors.scss';
+
+.container {
+  display: inline-block;
+  color: $primary;
+
+  &:hover {
+    color: $secondary;
+    box-shadow: 0px 20px 0px 0px $secondaryColor;
+    border-radius: 3px;
+    height: 3px;
+  }
+}

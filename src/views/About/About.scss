@@ -1,3 +1,4 @@
+@import './../../styles/common/colors.scss';
 @import './../../styles/common/mixins.scss';
 
 @mixin descriptionContainer {
@@ -5,10 +6,19 @@
   padding-bottom: 50px;
   font-size: 18px;
   line-height: 2;
+  color: $tertiary;
 }
 
 .container {
   @include baseRootContainer;
+
+  .title {
+    color: $secondary;
+  }
+
+  .heading {
+    color: $secondary;
+  }
 
   .headshot {
     border-radius: 50%;

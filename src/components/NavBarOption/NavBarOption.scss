@@ -1,5 +1,14 @@
 @import './../../styles/common/colors.scss';
 
+.link {
+  a {
+    &.router-link-exact-active {
+      // TODO: get this working correctly
+      color: cyan;
+    }
+  }
+}
+
 .container {
   display: inline-block;
   color: $primary;

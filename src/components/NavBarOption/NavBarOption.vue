@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="link">
+  <router-link class="link" :to="link">
     <div class="container">
       {{label}}
     </div>

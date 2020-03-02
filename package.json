@@ -1,6 +1,13 @@
 {
   "name": "laffery.io-v3",
   "version": "0.1.0",
+  "homepage": "https://github.com/ryanlafferty",
+  "author": {
+    "name" : "Ryan Lafferty",
+    "email" : "rlafferty1@hotmail.com",
+    "url" : "https://github.com/ryanlafferty"
+  },
+  "license": "MIT",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

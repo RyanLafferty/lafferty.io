@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <component :is="componentLoader" class="logo"/>
+    <component :is="logo" class="logo"/>
     <span class="label">
       {{ label }}
     </span>
@@ -11,18 +11,12 @@
 export default {
   props: {
     logo: {
-      type: String,
-      default: '@/assets/svg/github.svg',
+      type: Object,
+      default: null,
     },
     label: {
       type: String,
       default: '',
-    },
-  },
-  // TODO: revert changes here
-  computed: {
-    componentLoader() {
-      return () => (import(this.logo));
     },
   },
 };

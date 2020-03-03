@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Skill :logo="skills[0].logo" :label="skills[0].label"/>
+    <Skill :logo="skills[2].logo" :label="skills[2].label"/>
   </div>
 </template>
 

@@ -19,6 +19,7 @@ export default {
       default: '',
     },
   },
+  // TODO: revert changes here
   computed: {
     componentLoader() {
       return () => (import(this.logo));

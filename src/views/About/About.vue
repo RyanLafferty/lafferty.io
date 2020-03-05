@@ -11,11 +11,24 @@
       {{ content.en.careerDescription }}
     </div>
     <h2 class="heading">
-      {{ content.en.skillsTitle }}
+      {{ content.en.skillsHeadings.root }}
     </h2>
-    <Skills
-      :skills="backendSkills"
-    />
+    <h3 class="heading">
+      {{ content.en.skillsHeadings.backend }}
+    </h3>
+    <Skills :skills="backendSkills" />
+    <h3 class="heading">
+      {{ content.en.skillsHeadings.frontend }}
+    </h3>
+    <Skills :skills="frontendSkills" />
+    <h3 class="heading">
+      {{ content.en.skillsHeadings.platform }}
+    </h3>
+    <Skills :skills="platformSkills" />
+    <h3 class="heading">
+      {{ content.en.skillsHeadings.other }}
+    </h3>
+    <Skills :skills="otherSkills" />
     <h2 class="heading">
       {{ content.en.socialTitle }}
     </h2>
@@ -30,7 +43,12 @@
 import Skills from '@/components/Skills';
 import headshot from '@/assets/jpg/headshot.jpg';
 import biking from '@/assets/jpg/biking.jpg';
-import { BackendSkills } from '@/assets/config/Skills';
+import {
+  BackendSkills,
+  FrontendSkills,
+  PlatformSkills,
+  OtherSkills,
+} from '@/assets/config/Skills';
 import content from './About.json';
 
 export default {
@@ -45,6 +63,9 @@ export default {
     headshot,
     biking,
     backendSkills: BackendSkills,
+    frontendSkills: FrontendSkills,
+    platformSkills: PlatformSkills,
+    otherSkills: OtherSkills,
   }),
   components: {
     Skills,

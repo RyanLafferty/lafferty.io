@@ -1,6 +1,8 @@
 import RubyLogo from '@/assets/svg/logos/colored/ruby.svg';
 import PythonLogo from '@/assets/svg/logos/colored/python.svg';
 import NodeJSLogo from '@/assets/svg/logos/colored/nodejs.svg';
+
+import AWSLogo from '@/assets/svg/logos/colored/aws.svg';
 import KubernetesLogo from '@/assets/svg/logos/colored/kubernetes.svg';
 
 export const BackendSkills = [
@@ -22,7 +24,13 @@ export const FrontendSkills = [];
 
 export const PlatformSkills = [
   {
+    label: 'AWS',
+    logo: AWSLogo,
+  },
+  {
     label: 'Kubernetes',
     logo: KubernetesLogo,
   },
 ];
+
+export const OtherSkills = [];

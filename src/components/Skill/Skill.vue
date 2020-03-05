@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <component :is="logo" class="logo"/>
+  <div :class="styles.container">
+    <component :is="logo" :class="styles.logo"/>
     <span class="label">
       {{ label }}
     </span>
@@ -8,6 +8,8 @@
 </template>
 
 <script>
+import styles from './Skill.module.scss';
+
 export default {
   props: {
     logo: {
@@ -19,9 +21,8 @@ export default {
       default: '',
     },
   },
+  data: () => ({
+    styles,
+  }),
 };
 </script>
-
-<style lang="scss" scoped>
-  @import 'Skill.scss'
-</style>

@@ -1,4 +1,4 @@
-import RubyLogo from '@/assets/svg/logos/monochrome/ruby.svg';
+import RubyLogo from '@/assets/svg/logos/colored/ruby.svg';
 import PythonLogo from '@/assets/svg/logos/colored/python.svg';
 import NodeJSLogo from '@/assets/svg/logos/colored/nodejs.svg';
 import KubernetesLogo from '@/assets/svg/logos/colored/kubernetes.svg';

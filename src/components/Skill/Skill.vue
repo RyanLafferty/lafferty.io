@@ -1,7 +1,7 @@
 <template>
   <div :class="styles.container">
     <component :is="logo" :class="styles.logo"/>
-    <span class="label">
+    <span :class="styles.label">
       {{ label }}
     </span>
   </div>

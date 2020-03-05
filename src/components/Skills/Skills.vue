@@ -11,16 +11,20 @@
 
 <script>
 import Skill from '@/components/Skill';
-import { BackendSkills as skills } from '@/assets/config/Skills';
-import styles from './BackendSkills.module.scss';
+import styles from './Skills.module.scss';
 
 export default {
   data: () => ({
-    skills,
     styles,
   }),
   components: {
     Skill,
+  },
+  props: {
+    skills: {
+      type: Array,
+      default: () => [],
+    },
   },
 };
 </script>

@@ -13,7 +13,9 @@
     <h2 class="heading">
       {{ content.en.skillsTitle }}
     </h2>
-    <BackendSkills/>
+    <Skills
+      :skills="backendSkills"
+    />
     <h2 class="heading">
       {{ content.en.socialTitle }}
     </h2>
@@ -25,9 +27,10 @@
 </template>
 
 <script>
-import BackendSkills from '@/components/BackendSkills';
+import Skills from '@/components/Skills';
 import headshot from '@/assets/jpg/headshot.jpg';
 import biking from '@/assets/jpg/biking.jpg';
+import { BackendSkills } from '@/assets/config/Skills';
 import content from './About.json';
 
 export default {
@@ -41,9 +44,10 @@ export default {
     content,
     headshot,
     biking,
+    backendSkills: BackendSkills,
   }),
   components: {
-    BackendSkills,
+    Skills,
   },
 };
 </script>

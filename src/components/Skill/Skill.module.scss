@@ -5,13 +5,14 @@
   margin-bottom: 3px;
   margin-right: 5px;
   margin-left: 5px;
+
   padding-top: 3px;
   padding-bottom: 3px;
   padding-left: 5px;
   padding-right: 5px;
+
   border-radius: 16px;
-  // TODO: use a theme color
-  background-color: lightblue;
+  background-color: $gallery;
 
   .logo {
     width: 18px;

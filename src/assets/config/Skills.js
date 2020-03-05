@@ -1,7 +1,19 @@
+/*
+  TODO: get backend logos
+        * golang
+        * grpc
+        * sinatra
+        * rails
+        * better ruby logo
+*/
+
 // Backend Logos
+import NodeJSLogo from '@/assets/svg/logos/colored/nodejs.svg';
+import ExpressLogo from '@/assets/svg/logos/colored/express.svg';
 import RubyLogo from '@/assets/svg/logos/colored/ruby.svg';
 import PythonLogo from '@/assets/svg/logos/colored/python.svg';
-import NodeJSLogo from '@/assets/svg/logos/colored/nodejs.svg';
+import FlaskLogo from '@/assets/svg/logos/colored/flask.svg';
+import DjangoLogo from '@/assets/svg/logos/colored/django.svg';
 
 // Frontend Logos
 import ES6Logo from '@/assets/svg/logos/colored/es6.svg';
@@ -15,6 +27,14 @@ import AndroidLogo from '@/assets/svg/logos/colored/android.svg';
 
 export const BackendSkills = [
   {
+    label: 'Node.js',
+    logo: NodeJSLogo,
+  },
+  {
+    label: 'Express',
+    logo: ExpressLogo,
+  },
+  {
     label: 'Ruby',
     logo: RubyLogo,
   },
@@ -23,8 +43,12 @@ export const BackendSkills = [
     logo: PythonLogo,
   },
   {
-    label: 'Node.js',
-    logo: NodeJSLogo,
+    label: 'Django',
+    logo: DjangoLogo,
+  },
+  {
+    label: 'Flask',
+    logo: FlaskLogo,
   },
 ];
 

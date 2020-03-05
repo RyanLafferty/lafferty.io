@@ -1,9 +1,14 @@
+// Backend Logos
 import RubyLogo from '@/assets/svg/logos/colored/ruby.svg';
 import PythonLogo from '@/assets/svg/logos/colored/python.svg';
 import NodeJSLogo from '@/assets/svg/logos/colored/nodejs.svg';
 
+// Platform Logos
 import AWSLogo from '@/assets/svg/logos/colored/aws.svg';
 import KubernetesLogo from '@/assets/svg/logos/colored/kubernetes.svg';
+
+// Other Logos
+import AndroidLogo from '@/assets/svg/logos/colored/android.svg';
 
 export const BackendSkills = [
   {
@@ -33,4 +38,9 @@ export const PlatformSkills = [
   },
 ];
 
-export const OtherSkills = [];
+export const OtherSkills = [
+  {
+    label: 'Android',
+    logo: AndroidLogo,
+  },
+];

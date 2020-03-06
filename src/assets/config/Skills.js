@@ -41,12 +41,12 @@ import ES6Logo from '@/assets/svg/logos/colored/es6.svg';
         * Git
         * Skaffold
         * Jenkins
-        * Docker
 */
 // Platform Logos
 import AWSLogo from '@/assets/svg/logos/colored/aws.svg';
 import HerokuLogo from '@/assets/svg/logos/colored/heroku.svg';
 import GCPLogo from '@/assets/svg/logos/colored/google-cloud-platform.svg';
+import DockerLogo from '@/assets/svg/logos/colored/docker.svg';
 import KubernetesLogo from '@/assets/svg/logos/colored/kubernetes.svg';
 
 /*
@@ -109,6 +109,10 @@ export const PlatformSkills = [
   {
     label: 'Heroku',
     logo: HerokuLogo,
+  },
+  {
+    label: 'Docker',
+    logo: DockerLogo,
   },
   {
     label: 'Kubernetes',

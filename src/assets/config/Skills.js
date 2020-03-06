@@ -15,13 +15,51 @@ import PythonLogo from '@/assets/svg/logos/colored/python.svg';
 import FlaskLogo from '@/assets/svg/logos/colored/flask.svg';
 import DjangoLogo from '@/assets/svg/logos/colored/django.svg';
 
+/*
+  TODO: get frontend logos
+        * HTML5
+        * CSS3
+        * Sass
+        * React
+        * Redux
+        * Vue
+        * Vuex
+        * Vuetify
+        * Webpack
+        * Material UI
+        * Kendo
+*/
 // Frontend Logos
 import ES6Logo from '@/assets/svg/logos/colored/es6.svg';
 
+/*
+  TODO: get platform logos
+        * Make
+        * Bash
+        * Expect
+        * NGINX
+        * Git
+        * Skaffold
+        * Jenkins
+        * Docker
+        * Heroku
+        * Google Cloud Platform
+*/
 // Platform Logos
 import AWSLogo from '@/assets/svg/logos/colored/aws.svg';
 import KubernetesLogo from '@/assets/svg/logos/colored/kubernetes.svg';
 
+/*
+  TODO: get other logos
+        * Flutter
+        * Android-NDK
+        * MacOS
+        * Windows
+        * GNU/Linux
+        * Ubuntu Server
+        * Fedora
+        * CentOS
+*/
 // Other Logos
 import AndroidLogo from '@/assets/svg/logos/colored/android.svg';
 

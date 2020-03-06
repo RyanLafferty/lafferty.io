@@ -42,13 +42,11 @@ import ES6Logo from '@/assets/svg/logos/colored/es6.svg';
         * Skaffold
         * Jenkins
         * Docker
-        * Heroku
-        * Google Cloud Platform
 */
 // Platform Logos
 import AWSLogo from '@/assets/svg/logos/colored/aws.svg';
 import HerokuLogo from '@/assets/svg/logos/colored/heroku.svg';
-import GCPLogo from '@/assets/svg/logos/colored/gcp.svg';
+import GCPLogo from '@/assets/svg/logos/colored/google-cloud-platform.svg';
 import KubernetesLogo from '@/assets/svg/logos/colored/kubernetes.svg';
 
 /*

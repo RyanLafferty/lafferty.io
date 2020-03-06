@@ -47,6 +47,8 @@ import ES6Logo from '@/assets/svg/logos/colored/es6.svg';
 */
 // Platform Logos
 import AWSLogo from '@/assets/svg/logos/colored/aws.svg';
+import HerokuLogo from '@/assets/svg/logos/colored/heroku.svg';
+import GCPLogo from '@/assets/svg/logos/colored/gcp.svg';
 import KubernetesLogo from '@/assets/svg/logos/colored/kubernetes.svg';
 
 /*
@@ -99,8 +101,16 @@ export const FrontendSkills = [
 
 export const PlatformSkills = [
   {
+    label: 'GCP',
+    logo: GCPLogo,
+  },
+  {
     label: 'AWS',
     logo: AWSLogo,
+  },
+  {
+    label: 'Heroku',
+    logo: HerokuLogo,
   },
   {
     label: 'Kubernetes',

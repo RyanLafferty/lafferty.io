@@ -17,8 +17,6 @@ import DjangoLogo from '@/assets/svg/logos/colored/django.svg';
 
 /*
   TODO: get frontend logos
-        * HTML5
-        * CSS3
         * Sass
         * React
         * Redux
@@ -30,6 +28,8 @@ import DjangoLogo from '@/assets/svg/logos/colored/django.svg';
         * Kendo
 */
 // Frontend Logos
+import HTML5Logo from '@/assets/svg/logos/colored/html5.svg';
+import CSS3Logo from '@/assets/svg/logos/colored/css3.svg';
 import ES6Logo from '@/assets/svg/logos/colored/es6.svg';
 
 /*
@@ -91,6 +91,14 @@ export const BackendSkills = [
 ];
 
 export const FrontendSkills = [
+  {
+    label: 'HTML5',
+    logo: HTML5Logo,
+  },
+  {
+    label: 'CSS3',
+    logo: CSS3Logo,
+  },
   {
     label: 'ES6',
     logo: ES6Logo,

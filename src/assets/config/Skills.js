@@ -125,7 +125,15 @@ export const FrontendSkills = [
     logo: ReduxLogo,
   },
   {
+    label: 'Material UI',
+    logo: MaterialLogo,
+  },
+  {
     label: 'Vue',
+    logo: VueLogo,
+  },
+  {
+    label: 'Vuex',
     logo: VueLogo,
   },
   {
@@ -135,10 +143,6 @@ export const FrontendSkills = [
   {
     label: 'Webpack',
     logo: WebpackLogo,
-  },
-  {
-    label: 'Material UI',
-    logo: MaterialLogo,
   },
 ];
 

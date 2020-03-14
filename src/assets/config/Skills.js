@@ -1,6 +1,5 @@
 /*
   TODO: get backend logos
-        * grpc
         * sinatra
 */
 
@@ -13,6 +12,7 @@ import PythonLogo from '@/assets/svg/logos/colored/python.svg';
 import FlaskLogo from '@/assets/svg/logos/colored/flask.svg';
 import DjangoLogo from '@/assets/svg/logos/colored/django.svg';
 import GoLogo from '@/assets/svg/logos/colored/golang.svg';
+import gRPCLogo from '@/assets/svg/logos/colored/grpc.svg';
 
 /*
   TODO: get frontend logos
@@ -96,6 +96,10 @@ export const BackendSkills = [
   {
     label: 'Go',
     logo: GoLogo,
+  },
+  {
+    label: 'gRPC',
+    logo: gRPCLogo,
   },
 ];
 

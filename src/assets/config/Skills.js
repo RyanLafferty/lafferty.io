@@ -10,6 +10,7 @@
 import NodeJSLogo from '@/assets/svg/logos/colored/nodejs.svg';
 import ExpressLogo from '@/assets/svg/logos/colored/express.svg';
 import RubyLogo from '@/assets/svg/logos/colored/ruby.svg';
+import RailsLogo from '@/assets/svg/logos/colored/rails.svg';
 import PythonLogo from '@/assets/svg/logos/colored/python.svg';
 import FlaskLogo from '@/assets/svg/logos/colored/flask.svg';
 import DjangoLogo from '@/assets/svg/logos/colored/django.svg';
@@ -77,6 +78,10 @@ export const BackendSkills = [
   {
     label: 'Ruby',
     logo: RubyLogo,
+  },
+  {
+    label: 'Rails',
+    logo: RailsLogo,
   },
   {
     label: 'Python',

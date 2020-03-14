@@ -28,6 +28,16 @@ const routes = [
     component: () => import('@/views/Construction'),
   },
   {
+    path: '/hobbies',
+    name: 'Hobbies',
+    component: () => import('@/views/Construction'),
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: () => import('@/views/Construction'),
+  },
+  {
     path: '*',
     name: 'Not Found',
     component: () => import('@/views/NotFound'),

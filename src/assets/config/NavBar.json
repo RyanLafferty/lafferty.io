@@ -14,5 +14,13 @@
   {
     "label": "Projects",
     "link": "/projects"
+  },
+  {
+    "label": "Hobbies",
+    "link": "/hobbies"
+  },
+  {
+    "label": "Blog",
+    "link": "/blog"
   }
 ]

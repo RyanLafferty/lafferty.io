@@ -1,6 +1,5 @@
 /*
   TODO: get backend logos
-        * golang
         * grpc
         * sinatra
         * rails
@@ -14,6 +13,7 @@ import RubyLogo from '@/assets/svg/logos/colored/ruby.svg';
 import PythonLogo from '@/assets/svg/logos/colored/python.svg';
 import FlaskLogo from '@/assets/svg/logos/colored/flask.svg';
 import DjangoLogo from '@/assets/svg/logos/colored/django.svg';
+import GoLogo from '@/assets/svg/logos/colored/golang.svg';
 
 /*
   TODO: get frontend logos
@@ -89,6 +89,10 @@ export const BackendSkills = [
   {
     label: 'Flask',
     logo: FlaskLogo,
+  },
+  {
+    label: 'Go',
+    logo: GoLogo,
   },
 ];
 

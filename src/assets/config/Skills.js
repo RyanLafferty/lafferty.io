@@ -40,6 +40,8 @@ import MaterialLogo from '@/assets/svg/logos/colored/material.svg';
         * Git
         * Skaffold
         * Jenkins
+        * postgresql
+        * ElasticSearch
 */
 // Platform Logos
 import AWSLogo from '@/assets/svg/logos/colored/aws.svg';

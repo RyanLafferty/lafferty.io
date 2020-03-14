@@ -1,0 +1,15 @@
+@import './../../styles/common/colors.scss';
+
+.container {
+  .icon {
+    height: 32vh;
+    width: 32vw;
+  }
+
+  .message {
+    padding-top: 25px;
+    font-size: 7vh;
+    font-weight: 500;
+    color: black;
+  }
+}

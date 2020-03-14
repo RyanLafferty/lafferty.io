@@ -17,7 +17,6 @@ import GoLogo from '@/assets/svg/logos/colored/golang.svg';
 /*
   TODO: get frontend logos
         * Vuex
-        * Vuetify
         * Kendo
 */
 // Frontend Logos
@@ -28,6 +27,7 @@ import SassLogo from '@/assets/svg/logos/colored/sass.svg';
 import ReactLogo from '@/assets/svg/logos/colored/react.svg';
 import ReduxLogo from '@/assets/svg/logos/colored/redux.svg';
 import VueLogo from '@/assets/svg/logos/colored/vue.svg';
+import VuetifyLogo from '@/assets/svg/logos/colored/vuetify.svg';
 import WebpackLogo from '@/assets/svg/logos/colored/webpack.svg';
 import MaterialLogo from '@/assets/svg/logos/colored/material.svg';
 
@@ -127,6 +127,10 @@ export const FrontendSkills = [
   {
     label: 'Vue',
     logo: VueLogo,
+  },
+  {
+    label: 'Vuetify',
+    logo: VuetifyLogo,
   },
   {
     label: 'Webpack',

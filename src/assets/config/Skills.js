@@ -50,6 +50,8 @@ import GCPLogo from '@/assets/svg/logos/colored/google-cloud-platform.svg';
 import DockerLogo from '@/assets/svg/logos/colored/docker.svg';
 import KubernetesLogo from '@/assets/svg/logos/colored/kubernetes.svg';
 import NginxLogo from '@/assets/svg/logos/colored/nginx.svg';
+import PostgresqlLogo from '@/assets/svg/logos/colored/postgresql.svg';
+import ElasticSearchLogo from '@/assets/svg/logos/colored/elasticsearch.svg';
 
 /*
   TODO: get other logos
@@ -155,6 +157,14 @@ export const PlatformSkills = [
   {
     label: 'NGINX',
     logo: NginxLogo,
+  },
+  {
+    label: 'Postgresql',
+    logo: PostgresqlLogo,
+  },
+  {
+    label: 'Elasticsearch',
+    logo: ElasticSearchLogo,
   },
 ];
 

@@ -37,7 +37,6 @@ import MaterialLogo from '@/assets/svg/logos/colored/material.svg';
         * Make
         * Bash
         * Expect
-        * NGINX
         * Git
         * Skaffold
         * Jenkins
@@ -48,6 +47,7 @@ import HerokuLogo from '@/assets/svg/logos/colored/heroku.svg';
 import GCPLogo from '@/assets/svg/logos/colored/google-cloud-platform.svg';
 import DockerLogo from '@/assets/svg/logos/colored/docker.svg';
 import KubernetesLogo from '@/assets/svg/logos/colored/kubernetes.svg';
+import NginxLogo from '@/assets/svg/logos/colored/nginx.svg';
 
 /*
   TODO: get other logos
@@ -149,6 +149,10 @@ export const PlatformSkills = [
   {
     label: 'Kubernetes',
     logo: KubernetesLogo,
+  },
+  {
+    label: 'NGINX',
+    logo: NginxLogo,
   },
 ];
 

@@ -17,8 +17,6 @@ import DjangoLogo from '@/assets/svg/logos/colored/django.svg';
 
 /*
   TODO: get frontend logos
-        * Sass
-        * React
         * Redux
         * Vue
         * Vuex
@@ -31,6 +29,9 @@ import DjangoLogo from '@/assets/svg/logos/colored/django.svg';
 import HTML5Logo from '@/assets/svg/logos/colored/html5.svg';
 import CSS3Logo from '@/assets/svg/logos/colored/css3.svg';
 import ES6Logo from '@/assets/svg/logos/colored/es6.svg';
+import SassLogo from '@/assets/svg/logos/colored/sass.svg';
+import ReactLogo from '@/assets/svg/logos/colored/react.svg';
+
 
 /*
   TODO: get platform logos
@@ -102,6 +103,14 @@ export const FrontendSkills = [
   {
     label: 'ES6',
     logo: ES6Logo,
+  },
+  {
+    label: 'Sass',
+    logo: SassLogo,
+  },
+  {
+    label: 'React',
+    logo: ReactLogo,
   },
 ];
 

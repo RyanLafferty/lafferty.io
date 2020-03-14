@@ -39,9 +39,6 @@ import MaterialLogo from '@/assets/svg/logos/colored/material.svg';
         * Expect
         * Git
         * Skaffold
-        * Jenkins
-        * postgresql
-        * ElasticSearch
 */
 // Platform Logos
 import AWSLogo from '@/assets/svg/logos/colored/aws.svg';
@@ -52,6 +49,7 @@ import KubernetesLogo from '@/assets/svg/logos/colored/kubernetes.svg';
 import NginxLogo from '@/assets/svg/logos/colored/nginx.svg';
 import PostgresqlLogo from '@/assets/svg/logos/colored/postgresql.svg';
 import ElasticSearchLogo from '@/assets/svg/logos/colored/elasticsearch.svg';
+import JenkinsLogo from '@/assets/svg/logos/colored/jenkins.svg';
 
 /*
   TODO: get other logos
@@ -165,6 +163,10 @@ export const PlatformSkills = [
   {
     label: 'Elasticsearch',
     logo: ElasticSearchLogo,
+  },
+  {
+    label: 'Jenkins',
+    logo: JenkinsLogo,
   },
 ];
 

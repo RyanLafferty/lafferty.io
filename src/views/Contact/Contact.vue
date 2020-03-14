@@ -10,7 +10,6 @@
         </span>
       </div>
       <div class="linkContainer">
-        <EmailIcon class="icon" alt="Email Icon" />
         <a
           class="label"
           :href="content.en.contact.email"
@@ -18,9 +17,9 @@
         >
           Email
         </a>
+        <EmailIcon class="icon" alt="Email Icon" />
       </div>
       <div class="linkContainer">
-        <LinkedInIcon class="icon" alt="LinkedIn Icon" />
         <a
           :href="content.en.links.linkedin"
           target="_blank"
@@ -29,9 +28,9 @@
         >
           LinkedIn
         </a>
+        <LinkedInIcon class="icon" alt="LinkedIn Icon" />
       </div>
       <div class="linkContainer">
-        <GitHubIcon class="icon" alt="GitHub Icon" />
         <a
           :href="content.en.links.github"
           target="_blank"
@@ -40,9 +39,9 @@
         >
           GitHub
         </a>
+        <GitHubIcon class="icon" alt="GitHub Icon" />
       </div>
       <div class="linkContainer">
-        <NpmIcon class="icon" alt="npm Icon" />
         <a
           :href="content.en.links.npm"
           target="_blank"
@@ -51,6 +50,7 @@
         >
           npm
         </a>
+        <NpmIcon class="icon" alt="npm Icon" />
       </div>
     </div>
   </div>

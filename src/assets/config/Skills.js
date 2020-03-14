@@ -32,7 +32,6 @@ import VueLogo from '@/assets/svg/logos/colored/vue.svg';
 import WebpackLogo from '@/assets/svg/logos/colored/webpack.svg';
 import MaterialLogo from '@/assets/svg/logos/colored/material.svg';
 
-
 /*
   TODO: get platform logos
         * Make

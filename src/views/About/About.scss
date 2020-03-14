@@ -3,7 +3,6 @@
 
 @mixin descriptionContainer {
   width: 40vw;
-  padding-bottom: 50px;
   font-size: 18px;
   line-height: 2;
   color: $tertiary;
@@ -27,6 +26,7 @@
   }
 
   .biking {
+    margin-top: 25px;
     width: 40vw;
     border-radius: 2%;
   }

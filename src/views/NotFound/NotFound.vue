@@ -1,6 +1,7 @@
 <template>
-  <div class="container">
-    TODO
+  <div :class="styles.container">
+    <NotFoundIcon :class="styles.icon"/>
+    <div :class="styles.copy">Page Not Found</div>
   </div>
 </template>
 

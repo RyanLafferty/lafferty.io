@@ -20,6 +20,17 @@
         </a>
       </div>
       <div class="linkContainer">
+        <LinkedInIcon class="icon" alt="LinkedIn Icon" />
+        <a
+          :href="content.en.links.linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="label"
+        >
+          LinkedIn
+        </a>
+      </div>
+      <div class="linkContainer">
         <GitHubIcon class="icon" alt="GitHub Icon" />
         <a
           :href="content.en.links.github"
@@ -39,17 +50,6 @@
           class="label"
         >
           npm
-        </a>
-      </div>
-      <div class="linkContainer">
-        <LinkedInIcon class="icon" alt="LinkedIn Icon" />
-        <a
-          :href="content.en.links.linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="label"
-        >
-          LinkedIn
         </a>
       </div>
     </div>

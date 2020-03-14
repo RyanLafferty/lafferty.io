@@ -2,8 +2,6 @@
   TODO: get backend logos
         * grpc
         * sinatra
-        * rails
-        * better ruby logo
 */
 
 // Backend Logos

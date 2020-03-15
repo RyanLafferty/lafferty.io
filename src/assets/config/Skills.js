@@ -37,7 +37,6 @@ import MaterialLogo from '@/assets/svg/logos/colored/material.svg';
         * Bash
         * Expect
         * Git
-        * Skaffold
 */
 // Platform Logos
 import AWSLogo from '@/assets/svg/logos/colored/aws.svg';
@@ -45,6 +44,7 @@ import HerokuLogo from '@/assets/svg/logos/colored/heroku.svg';
 import GCPLogo from '@/assets/svg/logos/colored/google-cloud-platform.svg';
 import DockerLogo from '@/assets/svg/logos/colored/docker.svg';
 import KubernetesLogo from '@/assets/svg/logos/colored/kubernetes.svg';
+import SkaffoldLogo from '@/assets/svg/logos/colored/skaffold.svg';
 import NginxLogo from '@/assets/svg/logos/colored/nginx.svg';
 import PostgresqlLogo from '@/assets/svg/logos/colored/postgresql.svg';
 import ElasticSearchLogo from '@/assets/svg/logos/colored/elasticsearch.svg';
@@ -170,6 +170,10 @@ export const PlatformSkills = [
   {
     label: 'Kubernetes',
     logo: KubernetesLogo,
+  },
+  {
+    label: 'Skaffold',
+    logo: SkaffoldLogo,
   },
   {
     label: 'NGINX',

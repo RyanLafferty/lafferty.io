@@ -9,8 +9,8 @@ import ExpressLogo from '@/assets/svg/logos/colored/express.svg';
 import RubyLogo from '@/assets/svg/logos/colored/ruby.svg';
 import RailsLogo from '@/assets/svg/logos/colored/rails.svg';
 import PythonLogo from '@/assets/svg/logos/colored/python.svg';
-import FlaskLogo from '@/assets/svg/logos/colored/flask.svg';
 import DjangoLogo from '@/assets/svg/logos/colored/django.svg';
+import FlaskLogo from '@/assets/svg/logos/colored/flask.svg';
 import GoLogo from '@/assets/svg/logos/colored/golang.svg';
 import gRPCLogo from '@/assets/svg/logos/colored/grpc.svg';
 
@@ -52,7 +52,6 @@ import JenkinsLogo from '@/assets/svg/logos/colored/jenkins.svg';
 
 /*
   TODO: get other logos
-        * Flutter
         * Android-NDK
         * MacOS
         * Windows
@@ -62,6 +61,7 @@ import JenkinsLogo from '@/assets/svg/logos/colored/jenkins.svg';
         * CentOS
 */
 // Other Logos
+import FlutterLogo from '@/assets/svg/logos/colored/flutter.svg';
 import AndroidLogo from '@/assets/svg/logos/colored/android.svg';
 
 export const BackendSkills = [
@@ -190,6 +190,10 @@ export const PlatformSkills = [
 ];
 
 export const OtherSkills = [
+  {
+    label: 'Flutter',
+    logo: FlutterLogo,
+  },
   {
     label: 'Android',
     logo: AndroidLogo,

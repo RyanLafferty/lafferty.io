@@ -1,6 +1,11 @@
 <template>
   <div :class="styles.container">
-    TODO
+    <div :class="styles.title">
+      {{ title }}
+    </div>
+    <div :class="styles.description">
+      {{ description }}
+    </div>
   </div>
 </template>
 

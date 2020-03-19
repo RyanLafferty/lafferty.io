@@ -17,7 +17,6 @@ import gRPCLogo from '@/assets/svg/logos/colored/grpc.svg';
 /*
   TODO: get frontend logos
         * Vuex
-        * Kendo
 */
 // Frontend Logos
 import HTML5Logo from '@/assets/svg/logos/colored/html5.svg';
@@ -34,9 +33,7 @@ import MaterialLogo from '@/assets/svg/logos/colored/material.svg';
 /*
   TODO: get platform logos
         * Make
-        * Bash
         * Expect
-        * Git
 */
 // Platform Logos
 import AWSLogo from '@/assets/svg/logos/colored/aws.svg';
@@ -49,6 +46,8 @@ import NginxLogo from '@/assets/svg/logos/colored/nginx.svg';
 import PostgresqlLogo from '@/assets/svg/logos/colored/postgresql.svg';
 import ElasticSearchLogo from '@/assets/svg/logos/colored/elasticsearch.svg';
 import JenkinsLogo from '@/assets/svg/logos/colored/jenkins.svg';
+import GitLogo from '@/assets/svg/logos/colored/git.svg';
+import BashLogo from '@/assets/svg/logos/colored/bash.svg';
 
 /*
   TODO: get other logos
@@ -190,6 +189,14 @@ export const PlatformSkills = [
   {
     label: 'Jenkins',
     logo: JenkinsLogo,
+  },
+  {
+    label: 'Git',
+    logo: GitLogo,
+  },
+  {
+    label: 'Bash',
+    logo: BashLogo,
   },
 ];
 

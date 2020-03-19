@@ -1,4 +1,6 @@
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/lafferty.io/' : '/',
   chainWebpack: (config) => {
     const svgRule = config.module.rule('svg');
 

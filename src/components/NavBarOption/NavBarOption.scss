@@ -21,10 +21,10 @@
 .linkActive {
   .container {
     @include baseContainer;
-    color: pink;
+    color: $tertiary;
 
     &:hover {
-      color: pink;
+      color: $tertiary;
       border: none;
       box-shadow: none;
     }

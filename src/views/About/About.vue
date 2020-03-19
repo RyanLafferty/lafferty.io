@@ -41,8 +41,8 @@
 
 <script>
 import Skills from '@/components/Skills';
-import headshot from '@/assets/jpg/headshot.jpg';
-import biking from '@/assets/jpg/biking.jpg';
+import headshot from '@/assets/jpg/headshot-compressed.jpg';
+import biking from '@/assets/jpg/biking-compressed.jpg';
 import {
   BackendSkills,
   FrontendSkills,

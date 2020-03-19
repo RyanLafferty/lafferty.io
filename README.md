@@ -1,4 +1,4 @@
-# laffery-io-v3
+# laffery.io
 
 ## Project setup
 ```

@@ -18,6 +18,10 @@
 
   padding-top: 3px;
 
+  &:hover {
+    cursor: default;
+  }
+
   .logo {
     fill: $primary;
     height: 18px;

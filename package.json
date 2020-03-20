@@ -13,7 +13,8 @@
     "lint": "vue-cli-service lint",
     "deploy": "gh-pages -d dist",
     "lint:fix": "vue-cli-service lint --fix",
-    "stylelint:fix": "stylelint \"**/*.scss\" --fix",
+    "stylelint": "stylelint \"**/*.scss\"",
+    "stylelint:fix": "yarn stylelint --fix",
     "manage": "vue ui",
     "storybook:build": "vue-cli-service storybook:build -c config/storybook",
     "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
@@ -54,19 +55,13 @@
     "vue-template-compiler": "^2.6.11"
   },
   "gitHooks": {
-    "pre-commit": "lint-staged && stylelint-staged"
+    "pre-commit": "lint-staged && yarn stylelint"
   },
   "homepage": "https://github.com/ryanlafferty/lafferty.io",
   "license": "MIT",
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
       "vue-cli-service lint",
-      "git add"
-    ]
-  },
-  "stylelint-staged": {
-    "*.scss": [
-      "stylelint \"**/*.scss\"",
       "git add"
     ]
   }

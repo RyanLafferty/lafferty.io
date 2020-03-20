@@ -54,7 +54,7 @@
     "vue-template-compiler": "^2.6.11"
   },
   "gitHooks": {
-    "pre-commit": "lint-staged stylelint-staged"
+    "pre-commit": "lint-staged && stylelint-staged"
   },
   "homepage": "https://github.com/ryanlafferty/lafferty.io",
   "license": "MIT",

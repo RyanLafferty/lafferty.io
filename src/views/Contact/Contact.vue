@@ -4,11 +4,6 @@
       Could not load resume
     </iframe>
     <div :class="styles.contactContainer">
-      <div :class="styles.titleContainer">
-        <span :class="styles.title">
-          {{content.en.title}}
-        </span>
-      </div>
       <div :class="styles.linkContainer">
         <a
           :class="styles.label"

@@ -1,45 +1,23 @@
 @import './../../styles/common/colors';
 
 .container {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   .resume {
     height: 85vh;
-    width: 100%;
+    margin-bottom: 20px;
+    width: 40vw;
   }
 
   .contactContainer {
     align-items: center;
-    border-color: $secondary;
-  
-    border-style: solid;
-    border-width: 1px;
     display: flex;
     flex-direction: column;
     margin-left: 25px;
     padding-bottom: 10px;
     width: 100%;
-
-    .titleContainer {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-
-      margin-top: -10px;
-      padding-bottom: 10px;
-
-      .title {
-        background-color: white;
-        color: $secondary;
-
-        font-weight: bold;
-        padding-left: 5px;
-        padding-right: 5px;
-        z-index: 2;
-      }
-    }
 
     .linkContainer {
       display: flex;

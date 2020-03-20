@@ -13,6 +13,8 @@
     "lint": "vue-cli-service lint",
     "deploy": "gh-pages -d dist",
     "lint:fix": "vue-cli-service lint --fix",
+    "lint:all": "yarn lint:fix ; yarn stylelint",
+    "lint:fixall": "yarn lint:fix ; yarn stylelint:fix",
     "stylelint": "stylelint \"**/*.scss\"",
     "stylelint:fix": "yarn stylelint --fix",
     "manage": "vue ui",

@@ -15,9 +15,38 @@ yarn serve
 yarn build
 ```
 
+### Deploys production build to gh-pages branch
+```
+yarn deploy
+```
+
+### Lints files
+```
+yarn lint:fix
+```
+
 ### Lints and fixes files
 ```
-yarn lint
+yarn lint:fix
+```
+
+### Lints styling files
+```
+yarn stylelint
+```
+
+### Lints and fixes styling files
+```
+yarn stylelint:fix
+```
+### Lints all files
+```
+yarn lint:all
+```
+
+### Lints and fixes all files
+```
+yarn lint:fixall
 ```
 
 ### Customize configuration

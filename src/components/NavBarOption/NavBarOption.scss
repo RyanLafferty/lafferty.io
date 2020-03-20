@@ -6,7 +6,7 @@
 
   &:hover {
     border-radius: 3px;
-    box-shadow: 0 20px 0 0 $secondary;
+    box-shadow: 0 22px 0 0 $secondary;
     color: $secondary;
     height: 3px;
   }
@@ -24,7 +24,7 @@
     color: $tertiary;
 
     &:hover {
-      border: none;
+      border: 0;
       box-shadow: none;
       color: $tertiary;
     }

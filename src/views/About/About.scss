@@ -23,6 +23,10 @@
     border-radius: 50%;
     height: 256px;
     width: 256px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .biking {

@@ -3,7 +3,7 @@
     <h1 class="title">
       {{ content.en.title }}
     </h1>
-    <img :src=headshot class="headshot">
+    <div @click="handleHeadshotClick"><img :src=headshot class="headshot"></div>
     <h2 class="heading">
       {{ content.en.careerTitle }}
     </h2>
@@ -49,6 +49,7 @@ import {
   PlatformSkills,
   OtherSkills,
 } from '@/assets/config/Skills';
+import contactContent from '@/views/Contact/Contact.json';
 import content from './About.json';
 
 export default {
@@ -67,6 +68,11 @@ export default {
     platformSkills: PlatformSkills,
     otherSkills: OtherSkills,
   }),
+  methods: {
+    handleHeadshotClick: () => {
+      window.open(contactContent.en.links.linkedin);
+    },
+  },
   components: {
     Skills,
   },
@@ -74,5 +80,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import 'About.scss'
+  @import 'About'
 </style>

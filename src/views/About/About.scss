@@ -1,11 +1,11 @@
-@import './../../styles/common/colors.scss';
-@import './../../styles/common/mixins.scss';
+@import './../../styles/common/colors';
+@import './../../styles/common/mixins';
 
 @mixin descriptionContainer {
-  width: 40vw;
+  color: $tertiary;
   font-size: 18px;
   line-height: 2;
-  color: $tertiary;
+  width: 40vw;
 }
 
 .container {
@@ -26,9 +26,9 @@
   }
 
   .biking {
+    border-radius: 2%;
     margin-top: 25px;
     width: 40vw;
-    border-radius: 2%;
   }
 
   .careerContainer {

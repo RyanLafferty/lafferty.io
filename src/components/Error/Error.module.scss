@@ -1,4 +1,4 @@
-@import './../../styles/common/colors.scss';
+@import './../../styles/common/colors';
 
 .container {
   .icon {
@@ -7,9 +7,9 @@
   }
 
   .message {
-    padding-top: 25px;
+    color: black;
     font-size: 7vh;
     font-weight: 500;
-    color: black;
+    padding-top: 25px;
   }
 }

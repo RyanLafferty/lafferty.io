@@ -6,21 +6,5 @@
   {
     "label": "Contact",
     "link": "/contact"
-  },
-  {
-    "label": "Work",
-    "link": "/work"
-  },
-  {
-    "label": "Projects",
-    "link": "/projects"
-  },
-  {
-    "label": "Hobbies",
-    "link": "/hobbies"
-  },
-  {
-    "label": "Blog",
-    "link": "/blog"
   }
 ]

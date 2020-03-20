@@ -1,8 +1,26 @@
+@import './../../styles/common/colors';
+
 .container {
-  .modeToggle {
+  @mixin modeToggleBase {
+    height: 24px;
     left: 20px;
     position: absolute;
-    top: 14px;
+    top: 16px;
+    width: 24px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .lightModeToggle {
+    @include modeToggleBase;
+    fill: white;
+  }
+
+  .darkModeToggle {
+    @include modeToggleBase;
+    fill: $primary;
   }
 
   .linkContainer {

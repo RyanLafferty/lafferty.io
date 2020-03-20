@@ -1,11 +1,7 @@
 <template>
   <div :class="styles.container">
-    <button v-if="darkMode" @click="toggleDarkMode" :class="styles.modeToggle">
-      LIGHT MODE
-    </button>
-    <button v-else @click="toggleDarkMode" :class="styles.modeToggle">
-      DARK MODE
-    </button>
+    <LightModeIcon v-if="darkMode" @click="toggleDarkMode" :class="styles.lightModeToggle" />
+    <DarkModeIcon v-else @click="toggleDarkMode" :class="styles.darkModeToggle" />
     <div :class="styles.linkContainer">
       <NavBarOption
         v-for="option in options"
@@ -19,6 +15,8 @@
 
 <script>
 import NavBarOption from '@/components/NavBarOption';
+import LightModeIcon from '@/assets/svg/sun.svg';
+import DarkModeIcon from '@/assets/svg/moon.svg';
 import {
   enable as enableDarkMode,
   disable as disableDarkMode,
@@ -57,6 +55,8 @@ export default {
   },
   components: {
     NavBarOption,
+    LightModeIcon,
+    DarkModeIcon,
   },
 };
 </script>

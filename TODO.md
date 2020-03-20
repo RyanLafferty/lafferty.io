@@ -2,11 +2,13 @@
 
 ## Usability
 
-* Add dark theme
 * Address site accessibility issues
+* Expose localization
+* Add translations
 
 ## Styling
 
+* Mobile support
 * Configure stylelint rules
 * Address any remaining scss styling issues
 

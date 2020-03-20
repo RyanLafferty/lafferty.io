@@ -3934,6 +3934,13 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
+darkreader@^4.9.2:
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/darkreader/-/darkreader-4.9.2.tgz#f4a1500d4305e1adca2a44f11330dfac4722c7dc"
+  integrity sha512-5Jjf2vK9BmFBzndsomFdrMsndXQwfZkd6o2WyqwexVeryrOkTYW1CLS+MKtPt7/rv+0wn9eBY4iufIDPqaaZ+g==
+  dependencies:
+    malevic "0.18.0"
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -7280,6 +7287,11 @@ make-dir@^3.0.2:
   integrity sha512-rYKABKutXa6vXTXhoV18cBE7PaewPXHe/Bdq4v+ZLMhxbWApkFFplT0LcbMW+6BbjnQXzZ/sAvSE/JdguApG5w==
   dependencies:
     semver "^6.0.0"
+
+malevic@0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/malevic/-/malevic-0.18.0.tgz#ed78a644329c410b3d66cb03f62a1c0332a6096c"
+  integrity sha512-d9XfQKexRjGUHugCUAMFjTbPnx1V8sfKcD9sYrk1/W/4/QpsgLR4x5GgkUGfHdsgQ2UbEcJSj6NWWJ+rd/m4aQ==
 
 mamacro@^0.0.3:
   version "0.0.3"

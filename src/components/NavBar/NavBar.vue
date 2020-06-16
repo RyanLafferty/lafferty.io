@@ -23,7 +23,6 @@ import {
 } from 'darkreader';
 import styles from './NavBar.module.scss';
 
-
 export default {
   props: {
     options: {

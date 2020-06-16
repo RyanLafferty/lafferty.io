@@ -11,7 +11,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -u 'Ryan Lafferty <rlafferty1@hotmail.com>'",
     "lint:fix": "vue-cli-service lint --fix",
     "lint:all": "yarn lint:fix ; yarn stylelint",
     "lint:fixall": "yarn lint:fix ; yarn stylelint:fix",

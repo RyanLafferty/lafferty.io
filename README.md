@@ -1,5 +1,7 @@
 # laffery.io
 
+![Continuous Deployment](https://github.com/RyanLafferty/lafferty.io/workflows/Continuous%20Deployment/badge.svg?branch=master&event=deployment_status)
+
 ## Project setup
 ```
 yarn install

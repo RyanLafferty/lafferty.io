@@ -17,7 +17,9 @@ jobs:
       - run: npm install -g @vue/cli
       - run: yarn install
       - run: yarn run build
-      - run: yarn run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.CI_GH_TOKEN }}
-          GH_TOKEN: ${{ secrets.CI_GH_TOKEN }}
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.CI_GH_TOKEN }}
+          user_name: ${{ secrets.CI_USER_NAME }}
+          user_email: ${{ secrets.CI_USER_EMAIL }}
+          publish_dir: ./dist

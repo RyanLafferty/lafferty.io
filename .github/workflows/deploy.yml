@@ -12,8 +12,6 @@ jobs:
       - uses: actions/setup-node@master
         with:
           node-version: 12
-      - run: git config user.name "RyanLafferty"
-      - run: git config user.email "rlafferty1@hotmail.com"
       - run: npm install -g @vue/cli
       - run: yarn install
       - run: yarn run build
